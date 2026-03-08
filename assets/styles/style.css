@@ -1,0 +1,52 @@
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Lato-Regular.woff2") format("woff2");
+  font-family: "Lato";
+  font-display: swap;
+}
+@font-face {
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Lato-Bold.woff2") format("woff2");
+  font-family: "Lato";
+  font-display: swap;
+}
+@font-face {
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/RussoOne-Regular.woff2") format("woff2");
+  font-family: "RussoOne";
+  font-display: swap;
+}
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input,
+textarea,
+select,
+button {
+  font: inherit;
+}
+
+button,
+label {
+  cursor: pointer;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+body {
+  background-color: rgb(179, 43, 112);
+  font-family: "Lato", sans-serif;
+}
+
+/*# sourceMappingURL=style.css.map */

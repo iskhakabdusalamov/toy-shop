@@ -1,0 +1,26 @@
+$lato: "Lato", sans-serif;
+$russo-one: "RussoOne", sans-serif;
+
+@font-face {
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/Lato-Regular.woff2") format("woff2");
+	font-family: "Lato";
+	font-display: swap;
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 700;
+	src: url("../fonts/Lato-Bold.woff2") format("woff2");
+	font-family: "Lato";
+	font-display: swap;
+}
+
+@font-face {
+	font-style: normal;
+	font-weight: 400;
+	src: url("../fonts/RussoOne-Regular.woff2") format("woff2");
+	font-family: "RussoOne";
+	font-display: swap;
+}

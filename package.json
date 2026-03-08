@@ -1,0 +1,14 @@
+{
+	"name": "toy-shop",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "sass --watch assets/styles/style.scss assets/styles/style.css",
+		"build": "sass assets/styles/style.scss assets/styles/style.css --style=compressed",
+		"server": "live-server"
+	},
+	"devDependencies": {
+		"live-server": "^1.2.2",
+		"sass": "^1.97.3"
+	}
+}
